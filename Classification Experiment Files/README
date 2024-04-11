@@ -1,0 +1,11 @@
+In this folder, the main python notebook with the code pertaining to the classification model, classification accuracy, spectral visualizations, and spectral data treatments is titled "PureAPI_Pooled_Averages.ipynb". All of the other CSV files located in this folder are referenced or are products of this python notebook. 
+
+General Nomenclature For File Naming 
+- If the title has "No_1_Col", this means that the identifying first column with the spectral identity such as "acetominophen" or "albendazole" has already been removed for data treatment. There will be a file by the same name that does not include "No_1_Col" that will have both the spectral absorbances as well as the first column identifier. If the file has "list" in its name, this means that this file does not have spectral information but only the first column of identifying information. 
+- Abbreviations for certain pharmaceuticals used in this study include:
+  - AA = Ascorbic Acid
+  - AC = Acetominophen
+  - AL = Albendazole
+  - AM = Amoxicillin
+  - AZ = Azithromycin
+  - Generally speaking, the two letter abbreviation will be the first two letters of the pharmaceutical name unless the name has two words or is a chemical formula. For instance, ascobric acid is two words so it is named AA and Calcium Carbonate is written as CaCO3. For some of the studies, three letters abbreviations are used instead for more differentiation, these employ the first three letters of the pharmaceutical name unless It is two words or a chemical formula. 
